@@ -13,7 +13,8 @@ public class Main {
         // The Contact class display() method.
         System.out.println("Contact before BetterContact: ");
         trenton.display();
-        System.out.println("\n");
+
+        System.out.println("\n-----------------------------------------------------------------");
 
         // Calling display() method with the trenton2 object. But which display() method? There are two different display() methods.
         // The BetterContact class display() method.
