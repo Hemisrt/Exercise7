@@ -1,6 +1,7 @@
 package com.company.Greenlee;
 
 public class BetterContact extends Contact {
+    // Attributes
     // Only creating the attribute phone because of BetterContact being an extension of the class Contact.
     private String phone;
 
