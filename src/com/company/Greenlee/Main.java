@@ -11,14 +11,14 @@ public class Main {
         BetterContact trenton2 = new BetterContact("Trenton", "trenton@gmail.com", "(012) 345-6789");
         // Calling display() method with the trenton object. But which display() method? There are two different display() methods.
         // The Contact class display() method.
-        System.out.println("Contact before BetterContact: ");
+        System.out.println("Contact before BetterContact(Normal Contact): ");
         trenton.display();
 
         System.out.println("\n-----------------------------------------------------------------");
 
         // Calling display() method with the trenton2 object. But which display() method? There are two different display() methods.
         // The BetterContact class display() method.
-        System.out.println("Contact after BetterContact: ");
+        System.out.println("Contact after BetterContact(Business Contact): ");
         trenton2.display();
     }
 }
